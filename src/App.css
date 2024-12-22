@@ -1,0 +1,178 @@
+/* General Reset */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Counter Wrapper */
+  .counter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* Counter Value */
+  .counter-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  /* Buttons */
+  .counter-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+   #increase {
+    background-color: #28a745;
+    color: white;
+  } 
+  
+  #increase:hover {
+    background-color: #218838;
+  } 
+  
+  #decrease {
+    background-color: #dc3545;
+    color: white;
+  } 
+
+  #decrease:hover {
+    background-color: #c82333;
+  } 
+  
+.heading-title{
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+
+}
+.heading-title , i{
+    margin-left:5px;
+    margin-top:2px;
+}
+/* History Section Styling */
+.history-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    background-color: #f9f9f9;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    max-height: 50px;
+    overflow-y: auto;   
+  }
+  
+  .history-list li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .history-list li:last-child {
+    border-bottom: none;
+  }
+  
+
+/* App container */
+.app-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .play-game-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .back-to-counter-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Game Screen Styling */
+  .game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+  }
+  
+  .options-container {
+    margin: 20px 0;
+  }
+  
+  .option-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .option-button:hover {
+    background-color: #d1d1d1;
+  }
+  
+  .game-message {
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc3545;
+  }
+  
+  /* Main Counter App Styling */
+  .counter-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: auto;
+  }
+  
+  .history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history-list li {
+    padding: 5px;
+  }
+  
+  .error-msg {
+    color: red;
+    font-weight: bold;
+  }
+  
